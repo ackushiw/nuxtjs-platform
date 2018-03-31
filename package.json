@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs/platform",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "browser/platform detection module for Nuxt.js",
   "license": "MIT",
   "contributors": [
