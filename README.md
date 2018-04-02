@@ -1,4 +1,4 @@
-# @nuxtjs/platform
+# nuxtjs-platform
 [![npm (scoped with tag)](https://img.shields.io/npm/v/@nuxtjs/platform/latest.svg?style=flat-square)](https://npmjs.com/package/@nuxtjs/platform)
 [![npm](https://img.shields.io/npm/dt/@nuxtjs/platform.svg?style=flat-square)](https://npmjs.com/package/@nuxtjs/platform)
 [![CircleCI](https://img.shields.io/circleci/project/github/ackushiw/nuxtjs-platform.svg?style=flat-square)](https://circleci.com/gh/ackushiw/nuxtjs-platform)
@@ -15,24 +15,22 @@
 The module features
 
 ## Setup
-- Add `@nuxtjs/platform` dependency using yarn or npm to your project
-- Add `@nuxtjs/platform` to `modules` section of `nuxt.config.js`
+- Add `nuxtjs-platform` dependency using yarn or npm to your project
+- Add `nuxtjs-platform` to `modules` section of `nuxt.config.js`
 
 ```js
 {
   modules: [
-    // Simple usage
-    '@nuxtjs/platform',
-
-    // With options
-    ['@nuxtjs/platform', { /* module options */ }],
+    // Usage
+    'nuxtjs-platform',
  ]
 }
 ```
 
 ## Usage
 
-Module Description
+This uses https://www.npmjs.com/package/browser-platform and adds css classes to the `<html>`
+The platform object is accessed with `$root.$platform`
 
 ## Development
 
